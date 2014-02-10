@@ -1,0 +1,232 @@
+body {
+  background-color: #004b75;
+  width: 850px;
+  padding: 0px;
+  margin: 0px auto;
+  font-family: "trebuchet ms", verdana, arial, helvetica;
+  text-align: center;
+}
+
+body h1 {
+  color: #DA9035;
+}
+
+body h2 {
+
+  color: #DA625F;
+
+}
+
+body h3 {
+  color: #DAC15F;
+
+}
+
+body ol, ul {
+line-height: 1.4;
+}
+
+body a:link {
+  color: #74C9F7;
+}
+
+body a:visited {
+  color: white;
+}
+
+body a:hover {
+  color: #D0E9F7;
+}
+
+.footer_hr {
+  color: red;
+  width: 800px;
+  padding: 0px;
+  text-align: left;
+}
+
+
+
+#header {
+  width: 800px;
+  padding: 0px;
+  margin: 0px auto;
+}
+
+#header img {
+  border: none;
+}
+
+
+
+#navigation {
+  font: 15px "trebuchet ms", verdana, arial, helvetica;
+  width: 850px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px auto 0px -20px;
+}
+
+#navigation ul li {
+  list-style: none;
+  display: inline; 
+  padding: 3px;
+  color: #8dccef;
+}
+
+#navigation ul li a {
+  text-decoration: none;
+  color: #c5e0ef;
+}
+
+#navigation ul li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       
+
+
+
+#template_content {
+  width: 800px;
+  text-align: justify;
+  color: #dde8ef;
+  font-size: 13.7px;
+  margin: 0px auto 50px auto;
+}
+
+
+
+#cont h2 {
+  color: #004b75;
+}
+
+
+
+
+
+#map {
+position: relative;
+left: 50%;
+width: 700px;
+margin-left: -350px;
+}
+
+
+
+#footer {
+  margin-top: 30px;
+  font: 13.5px "trebuchet ms", verdana, arial, helvetica;
+  list-style: none;
+}
+
+#footer ul {
+  width: 800px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  line-height:2;
+}
+
+#footer ul li {
+  display: inline; 
+  padding: 0px 0px;
+  color: #c5e0ef;
+  z-index: 0;
+
+}
+
+#footer ul li a {
+  list-style: none;
+  display: inline; 
+  padding: 0px 0px;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* Contact Form */
+
+#contact_form {
+  position: relative;
+  left: 50%;
+  width: 600px;
+  margin-top: 40px;
+  margin-left: -300px;
+  color: white;
+  margin-bottom: 70px;
+}
+
+body form input, textarea {
+  float: right;
+  width: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+body form textarea {
+  width: 75%;
+  height: 200px;
+}
+
+body form p {
+  text-align: right;
+  color: white;
+}
+
+#submit_button {
+  position: relative;
+  width: 80px;
+  float: left;
+  left: 50%;
+  margin-left: -40px;
+  top: 10px;
+}
+
+.error {
+font-weight: bold;
+color: #c00;
+}
+
+.technique {
+  color: #DA625F;
+}
+
+#headshot {
+float: right;
+margin-left: 15px;
+}
+
+#splash {
+  margin: 0px;
+  padding: 0px;
+  margin-left: -20px;
+}
+  
+.slider-wrapper{
+  width:390px;
+  margin:auto;
+  padding:20px 30px;
+  border-radius:5px;
+  background:#53788d;
+  box-shadow: 0 1px 2px 2px #222;
+}
