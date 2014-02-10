@@ -7,7 +7,7 @@ title: About me
 
 <h2>Philosophy</h2>
 
-<img id="headshot" src="/images/martha-gibbons-nurse-psychotherapist.jpg" alt="portrait of martha blechar gibbons">
+<img id="headshot" src="images/martha-gibbons-nurse-psychotherapist.jpg" alt="portrait of martha blechar gibbons">
 <p>Throughout our lives, we encounter challenges that strain our ability to cope.   Like a storm at sea, these experiences can be overwhelming, and threaten to leave us immobilized.  At these times, we can respond as a skillful sailor, adjusting course and adapting new methods to navigate even the most formidable waters.</p>
 <p>There are ways to manage the most intense experiences:  death, separation, divorce, job loss, depression, anxiety, family dysfunction, relationship issues, loneliness.  Each person and each situation is unique, requiring a diversity of creative approaches.</p> 
 <p>As a nurse psychotherapist, I conduct a practice therapy and consultation with the goal of assisting individuals, families, and groups to progress more effectively through demanding phases of life.  I strive to form a relationship with those seeking my assistance that allows for the exploration and understanding of the presenting issues, and the development of the capacity to negotiate the storms of life transitions.</p>
