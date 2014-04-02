@@ -4,7 +4,7 @@ title: My Practice
 ---
 
 <h1>About My Practice</h1>
-<p>I incorporate a variety of creative counseling approaches in my practice, including family systems, cognitive and behavioral therapy, self psychology, Gestalt techniques, play therapy, meditation, imagery, visualization, hypnosis, nutrition and exercise counseling, health education, and psychopharmacology. I provide therapy for children, adolescents, and adults, by providing individual, couple, family, and group sessions.</p>
+<p>I incorporate a variety of creative counseling approaches in my practice, including family systems, cognitive and behavioral therapy, self psychology, Gestalt techniques, play therapy, meditation, imagery, visualization, hypnosis, nutrition and exercise counseling, health education, mindfulness, and psychopharmacology. I provide therapy for children, adolescents, and adults, by providing individual, couple, family, and group sessions.</p>
 
 <p><span class="technique"><b>Individual therapy</b></span> frequently focuses on working to eliminate the effect of early trauma and loss that can interfere with the healing process in the broadest sense.</p>
 
@@ -25,3 +25,5 @@ title: My Practice
 <p><span class="technique"><b>Expressive therapies</b></span> include (but are not limited to) music/sound, movement, drama, poetry, mask-making, journaling, photography, bibliotherapy, drawing, and painting. Many exercises are designed to elicit and reinforce images of effective functioning, while others are designed to reveal obstacles to emotional and physical healing.</p>
 
 <p><span class="technique"><b>Therapeutic touch</b></span> is based on the assumption of Eastern medicine that illness or pain are sometimes caused by blockages in the body's energy field. When one intentionally manipulates the energy field, these blocks are dissipated.</p>
+
+<p><span class="technique"><b>Mindfulness</b></span> is enhanced attention to and awareness of current experience or present reality. It is awareness of what's going on internally and externally.</p>
