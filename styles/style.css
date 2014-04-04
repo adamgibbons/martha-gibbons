@@ -58,7 +58,6 @@ body a:hover {
 }
 
 
-
 #navigation {
   font: 15px "trebuchet ms", verdana, arial, helvetica;
   width: 850px;
@@ -230,3 +229,13 @@ margin-left: 15px;
   background:#53788d;
   box-shadow: 0 1px 2px 2px #222;
 }
+
+#header-new h1,
+#header-new h2,
+#header-new hr {
+  color: #66BOE3;
+}
+
+
+
+

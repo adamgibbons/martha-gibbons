@@ -10,4 +10,6 @@ Washington, D.C. 20015</b>.</p>
 
 <p>To reach the office, follow the brick stairway with a black iron railing located to the left of the house. The stairway leads down a hill to a brick patio. At the foot of the stairway, the first glass door on the right is the entrance to the waiting room. There is a sign bearing my name to the right of the waiting room door. Parking is available on the street.</p>
 
+<br>
+
 <img src="images/martha-gibbons-office-location.jpg" id="map">
