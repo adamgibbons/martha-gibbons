@@ -12,9 +12,7 @@ body h1 {
 }
 
 body h2 {
-
   color: #DA625F;
-
 }
 
 body h3 {
@@ -23,7 +21,7 @@ body h3 {
 }
 
 body ol, ul {
-line-height: 1.4;
+  line-height: 1.4;
 }
 
 body a:link {
@@ -45,18 +43,31 @@ body a:hover {
   text-align: left;
 }
 
-
-
 #header {
-  width: 800px;
-  padding: 0px;
-  margin: 0px auto;
+  font-size: .85em;
+  margin-bottom: 2em;
 }
 
-#header img {
+#header hr {
+  width: 50%;
   border: none;
+  border-top: 1px solid #66B0E3;
 }
 
+#header h1 {
+  margin-bottom: .33em;
+}
+
+#header h2 {
+  font-weight:100;
+  margin-top: .33em;
+}
+
+#header h1,
+#header h2,
+#header hr {
+  color: #66B0E3;
+}
 
 #navigation {
   font: 15px "trebuchet ms", verdana, arial, helvetica;
@@ -82,24 +93,6 @@ body a:hover {
   text-decoration: underline;
   color: white;
 }
-                  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                       
-
-
 
 #template_content {
   width: 800px;
@@ -109,24 +102,16 @@ body a:hover {
   margin: 0px auto 50px auto;
 }
 
-
-
 #cont h2 {
   color: #004b75;
 }
 
-
-
-
-
 #map {
-position: relative;
-left: 50%;
-width: 700px;
-margin-left: -350px;
+  position: relative;
+  left: 50%;
+  width: 700px;
+  margin-left: -350px;
 }
-
-
 
 #footer {
   margin-top: 30px;
@@ -147,7 +132,6 @@ margin-left: -350px;
   padding: 0px 0px;
   color: #c5e0ef;
   z-index: 0;
-
 }
 
 #footer ul li a {
@@ -156,12 +140,6 @@ margin-left: -350px;
   padding: 0px 0px;
   text-decoration: underline;
 }
-
-
-
-
-
-
 
 /* Contact Form */
 
@@ -202,8 +180,8 @@ body form p {
 }
 
 .error {
-font-weight: bold;
-color: #c00;
+  font-weight: bold;
+  color: #c00;
 }
 
 .technique {
@@ -211,8 +189,8 @@ color: #c00;
 }
 
 #headshot {
-float: right;
-margin-left: 15px;
+  float: right;
+  margin-left: 15px;
 }
 
 #splash {
@@ -220,7 +198,7 @@ margin-left: 15px;
   padding: 0px;
   margin-left: -20px;
 }
-  
+
 .slider-wrapper{
   width:390px;
   margin:auto;
@@ -229,13 +207,3 @@ margin-left: 15px;
   background:#53788d;
   box-shadow: 0 1px 2px 2px #222;
 }
-
-#header-new h1,
-#header-new h2,
-#header-new hr {
-  color: #66BOE3;
-}
-
-
-
-
