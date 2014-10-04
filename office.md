@@ -64,14 +64,3 @@ title: My Office
     </div>
   </div>
 </div>
-
-
-<!-- 
-
-
-
-
-
-Waiting Room
-
-Entrance -->
