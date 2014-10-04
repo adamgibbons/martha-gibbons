@@ -3,7 +3,7 @@ martha-gibbons
 Professional website for Martha Gibbons.
 Powered by Jekyll.
 
-## Quick setup
+## Quick start
 
 1. `git clone https://github.com/adamgibbons/martha-gibbons.git`
 
@@ -13,7 +13,7 @@ Powered by Jekyll.
 
 1. `jekyll serve`
 
-## Issues encountered during quick setup
+## Setup
 
 Is your current shell running Ruby 1.9.3?
 
