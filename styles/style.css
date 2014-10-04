@@ -212,7 +212,7 @@ body form p {
   margin-bottom: 2em;
 }
 
-.office-img caption {
+.office-img .caption {
   clear: left;
   text-align: left;
 }
