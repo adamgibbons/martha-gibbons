@@ -5,7 +5,7 @@ title: Recordings
 
 <h1>Mindfulness and meditation recordings</h1>
 
-<p>There are six tracks below. You can stream them on this web page or download them to any device.</p>
+<p>There are seven tracks below. You can stream them on this web page or download them to any device.</p>
 
 <br>
 
