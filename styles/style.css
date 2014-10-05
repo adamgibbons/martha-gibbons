@@ -25,6 +25,7 @@ HEADER BLOCK
 #header {
   margin-bottom: 2em;
   color: #66B0E3;
+  cursor: pointer;
 }
 
 #header hr {
