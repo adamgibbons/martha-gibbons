@@ -12,41 +12,39 @@ title: Contact me
 
       <div class="form-group">
         <label for="name">Name</label>
-        <input type="text" name="name" class="form-control" id="name" placeholder="Jane Doe">
+        <input type="text" name="name" class="form-control" id="name">
       </div>
 
       <div class="form-group">
         <label for="email">Email address</label>
-        <input type="email" name="_replyto" class="form-control" id="email" placeholder="you@email.com">
+        <input type="email" name="_replyto" class="form-control" id="email">
       </div>
 
       <div class="form-group">
         <label for="phone">Phone number (optional)</label>
-        <input type="text" name="phone" class="form-control" id="phone" placeholder="(202) 123-4444">
+        <input type="text" name="phone" class="form-control" id="phone">
       </div>
 
       <div class="form-group">
         <label>Message</label>
-        <textarea class="form-control" name="message" rows="3" id="message" placeholder="Inlude your message here!"></textarea>
+        <textarea class="form-control" name="message" rows="3" id="message"></textarea>
       <div>
 
       <br>
+
+      <div class="alert alert-success" id="success-message" style="display:none;">
+        <p>Thanks! I'll get back to you very soon.</p>
+        <p>&mdash; Martha</p>
+      </div>
+
+      <div class="alert alert-danger" id="error-message" style="display:none;">
+        <p>Please provide a name, email address, and message so I can respond to you!</p>
+      </div>
       
-      <button type="button" onclick="submitForm()" class="btn btn-default">Sign in</button>
+      <button type="button" onclick="submitForm()" class="btn btn-default">Send message</button>
     </form>
 
   </div>
 </div>
 
-<script>
-  function submitForm() {
-    var data = $('#contact-form').serializeArray();
-
-    $.ajax({
-        url: "//forms.brace.io/adam.d.gibbons+marthagibbons@gmail.com", 
-        method: "POST",
-        data: data,
-        dataType: "json"
-    });
-  }
-</script>
+<script src="scripts/contact.js"></script>
