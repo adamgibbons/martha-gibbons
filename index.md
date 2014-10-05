@@ -2,6 +2,6 @@
 layout: default
 ---
 
-<div id="template_content">
+<div id="splash">
   <img src="images/splash.jpg">
 </div>
