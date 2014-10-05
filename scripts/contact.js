@@ -1,5 +1,5 @@
 function disableForm() {
-  $('#contact-form').find('input, textarea').attr('disabled', 'disabled');
+  $('#contact-form').find('input, textarea, button').attr('disabled', 'disabled');
 }
 
 function showErrorMessage() {
