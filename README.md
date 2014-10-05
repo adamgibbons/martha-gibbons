@@ -43,3 +43,7 @@ Install those gems:
 Run Jekyll locally and watch for file changes:
 
 `jekyll serve --watch`
+
+## Misc
+- [Custom bootstrap page](http://getbootstrap.com/customize/?id=cec7769bfb64134266b9)
+- [Brace.io form](http://reloaderdraft.4o7a6dlzdg.brace.io/)

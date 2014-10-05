@@ -1,6 +1,7 @@
 ---
-layout: home
-
+layout: default
 ---
 
-hello world
+<div id="template_content">
+  <img src="images/splash.jpg">
+</div>

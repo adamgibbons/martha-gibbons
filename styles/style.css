@@ -1,51 +1,30 @@
-body {
-  background-color: #004b75;
-  width: 850px;
-  padding: 0px;
-  margin: 0px auto;
-  font-family: "trebuchet ms", verdana, arial, helvetica;
-  text-align: center;
-}
+/*
 
-body h1 {
-  color: #DA9035;
-}
+GLOBALS
 
-body h2 {
+*/
+
+h2 {
   color: #DA625F;
 }
 
-body h3 {
+h3 {
   color: #DAC15F;
-
 }
 
-body ol, ul {
-  line-height: 1.4;
+address {
+  margin: 1.33em;
 }
 
-body a:link {
-  color: #74C9F7;
-}
+/*
 
-body a:visited {
-  color: white;
-}
+HEADER BLOCK
 
-body a:hover {
-  color: #D0E9F7;
-}
-
-.footer_hr {
-  color: red;
-  width: 800px;
-  padding: 0px;
-  text-align: left;
-}
+*/
 
 #header {
-  font-size: .85em;
   margin-bottom: 2em;
+  color: #66B0E3;
 }
 
 #header hr {
@@ -56,25 +35,29 @@ body a:hover {
 
 #header h1 {
   margin-bottom: .33em;
+  color: inherit;
 }
 
 #header h2 {
   font-weight:100;
   margin-top: .33em;
+  color: inherit;
 }
 
-#header h1,
-#header h2,
-#header hr {
-  color: #66B0E3;
-}
+/*
+
+NAVIGATION BLOCK
+
+*/
 
 #navigation {
-  font: 15px "trebuchet ms", verdana, arial, helvetica;
-  width: 850px;
   text-align: center;
   padding: 0px;
-  margin: 0px auto 0px -20px;
+  margin: auto;
+}
+
+#navigation ul {
+  padding: 0;
 }
 
 #navigation ul li {
@@ -82,6 +65,8 @@ body a:hover {
   display: inline; 
   padding: 3px;
   color: #8dccef;
+  margin: auto;
+  text-align: center;
 }
 
 #navigation ul li a {
@@ -94,37 +79,29 @@ body a:hover {
   color: white;
 }
 
-#template_content {
-  width: 800px;
-  text-align: justify;
-  color: #dde8ef;
-  font-size: 13.7px;
-  margin: 0px auto 50px auto;
+/*
+
+BANNER BLOCK
+
+*/
+
+#banner {
+  text-align: center;
 }
 
-#cont h2 {
-  color: #004b75;
-}
+/*
 
-#map {
-  position: relative;
-  left: 50%;
-  width: 700px;
-  margin-left: -350px;
-}
+FOOTER BLOCK
+
+*/
 
 #footer {
-  margin-top: 30px;
-  font: 13.5px "trebuchet ms", verdana, arial, helvetica;
-  list-style: none;
-}
-
-#footer ul {
-  width: 800px;
-  margin: 0px;
-  padding: 0px;
+  border-top: 1px dotted #000;
+  margin-top: 2em;
+  padding-top: 2em;
+  font-size: .9em;
   text-align: center;
-  line-height:2;
+  list-style: none;
 }
 
 #footer ul li {
@@ -141,57 +118,12 @@ body a:hover {
   text-decoration: underline;
 }
 
-/* Contact Form */
+/*
 
-#contact_form {
-  position: relative;
-  left: 50%;
-  width: 600px;
-  margin-top: 40px;
-  margin-left: -300px;
-  color: white;
-  margin-bottom: 70px;
-}
+URL /
+(homepage)
 
-body form input, textarea {
-  float: right;
-  width: 50%;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-body form textarea {
-  width: 75%;
-  height: 200px;
-}
-
-body form p {
-  text-align: right;
-  color: white;
-}
-
-#submit_button {
-  position: relative;
-  width: 80px;
-  float: left;
-  left: 50%;
-  margin-left: -40px;
-  top: 10px;
-}
-
-.error {
-  font-weight: bold;
-  color: #c00;
-}
-
-.technique {
-  color: #DA625F;
-}
-
-#headshot {
-  float: right;
-  margin-left: 15px;
-}
+*/
 
 #splash {
   margin: 0px;
@@ -199,14 +131,11 @@ body form p {
   margin-left: -20px;
 }
 
-.slider-wrapper{
-  width:390px;
-  margin:auto;
-  padding:20px 30px;
-  border-radius:5px;
-  background:#53788d;
-  box-shadow: 0 1px 2px 2px #222;
-}
+/*
+
+URL /office.html
+
+*/
 
 .office-img {
   margin-bottom: 2em;
@@ -219,4 +148,19 @@ body form p {
 
 .office-img img {
   max-width: 100%;
+}
+
+/*
+
+MISC (refactor these into better styles)
+
+*/
+
+.technique {
+  color: #DA625F;
+}
+
+#headshot {
+  float: right;
+  margin-left: 15px;
 }

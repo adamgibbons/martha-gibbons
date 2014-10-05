@@ -1,0 +1,54 @@
+---
+layout: default
+title: Contact me
+---
+
+<div class="rows">
+  <div class="col-sm-12 col-md-6 col-md-offset-3">
+    <h1>Contact me</h1>
+
+    <form id="contact-form">
+      <input type="hidden" name="_subject" value="[marthagibbons.com] Form submission" />
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" class="form-control" id="name" placeholder="Jane Doe">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" name="_replyto" class="form-control" id="email" placeholder="you@email.com">
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone number (optional)</label>
+        <input type="text" name="phone" class="form-control" id="phone" placeholder="(202) 123-4444">
+      </div>
+
+      <div class="form-group">
+        <label>Message</label>
+        <textarea class="form-control" name="message" rows="3" id="message" placeholder="Inlude your message here!"></textarea>
+      <div>
+
+      <br>
+      
+      <button type="button" onclick="submitForm()" class="btn btn-default">Sign in</button>
+    </form>
+
+  </div>
+</div>
+
+<script src="scripts/jquery.min.js"></script>
+
+<script>
+  function submitForm() {
+    var data = $('#contact-form').serializeArray();
+
+    $.ajax({
+        url: "//forms.brace.io/adam.d.gibbons+marthagibbons@gmail.com", 
+        method: "POST",
+        data: data,
+        dataType: "json"
+    });
+  }
+</script>
