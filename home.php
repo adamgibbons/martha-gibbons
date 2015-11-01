@@ -3,7 +3,7 @@
 // include dirname($_SERVER['DOCUMENT_ROOT']).'/cfg/settings.php';
 
 //getting required data
-$pagetitle = "Homepage";
+$pagetitle = "";
 //etc
 
 //and then call a template:
