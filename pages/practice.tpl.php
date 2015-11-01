@@ -1,9 +1,5 @@
----
-layout: default
-title: My Practice
----
-
 <h1>About My Practice</h1>
+
 <p>I incorporate a variety of creative counseling approaches in my practice, including family systems, cognitive and behavioral therapy, self psychology, Gestalt techniques, play therapy, meditation, imagery, visualization, hypnosis, nutrition and exercise counseling, health education, mindfulness, and psychopharmacology. I provide therapy for children, adolescents, and adults, by providing individual, couple, family, and group sessions.</p>
 
 <p><span class="technique"><b>Individual therapy</b></span> frequently focuses on working to eliminate the effect of early trauma and loss that can interfere with the healing process in the broadest sense.</p>

@@ -1,64 +1,59 @@
----
-layout: default
-title: My Office
----
-
-# My office
+<h1 id="my-office">My office</h1>
 
 <div class="tour">
   <div class="row">
     <div class="col-sm-6">
       <div class="office-img">
-        <img src="./images/office/office1.jpg" />
+        <img src="../static/img/office/office1.jpg" />
         <p class="caption">Consultation area</p>
       </div>
     </div>
 
     <div class="col-sm-6">
       <div class="office-img">
-        <img src="./images/office/office2.jpg" />
+        <img src="../static/img/office/office2.jpg" />
         <p class="caption">Consultation area</p>
       </div>
     </div>
 
     <div class="col-sm-6">
       <div class="office-img">
-        <img src="./images/office/office3.jpg" />
+        <img src="../static/img/office/office3.jpg" />
         <p class="caption">Waiting room</p>
       </div>
     </div>
 
     <div class="col-sm-6">
       <div class="office-img">
-        <img src="./images/office/office4.jpg" />
+        <img src="../static/img/office/office4.jpg" />
         <p class="caption">Consultation area</p>
       </div>
     </div>
 
     <div class="col-sm-6">
       <div class="office-img">
-        <img src="./images/office/office5.jpg" />
+        <img src="../static/img/office/office5.jpg" />
         <p class="caption">Waiting room</p>
       </div>
     </div>
 
     <div class="col-sm-6">
       <div class="office-img">
-        <img src="./images/office/office6.jpg" />
+        <img src="../static/img/office/office6.jpg" />
         <p class="caption">Consultation area</p>
       </div>
     </div>
 
     <div class="col-sm-6">
       <div class="office-img">
-        <img src="./images/office/office7.jpg" />
+        <img src="../static/img/office/office7.jpg" />
         <p class="caption">Sand Tray/Projective Techniques Area with Shelved Miniatures</p>
       </div>
     </div>
 
     <div class="col-sm-6">
       <div class="office-img">
-        <img src="./images/office/office8.jpg" />
+        <img src="../static/img/office/office8.jpg" />
         <p class="caption">Entrance and exit</p>
       </div>
     </div>

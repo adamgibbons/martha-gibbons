@@ -1,8 +1,3 @@
----
-layout: default
-title: Therapy
----
-
 <h1>Therapy</h1>
 
 <p><a href="#couples">Couples</a> | <a href="#child">Children and Adolescents</a> | <a href="#individual">Individuals</a></p>
