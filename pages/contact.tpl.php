@@ -1,54 +1,6 @@
-<div class="row">
-  <div class="col-sm-8 col-sm-offset-2">
+<!-- Change the width and height values to suit you best -->
+<h1>Contact Me</h1>
 
-    <?php if (!$submitted) { ?>
-      <h1>Contact me</h1>
-
-      <form id="contact-form" name="contact_form" method="post" action="/contact">
-
-        <div class="form-group <?php if ($sender_name_err) { echo 'has-error'; } ?>">
-          <label class="control-label" for="sender_name">Name</label>
-          <input type="text" name="sender_name" class="form-control" id="name" value="<?php echo htmlspecialchars($sender_name); ?>">
-          <span class="help-block has-error">
-            <?php echo $sender_name_err; ?>
-          </span>
-        </div>
-
-        <div class="form-group <?php if ($sender_email_err) { echo 'has-error'; } ?>">
-          <label class="control-label" for="sender_email">Email address</label>
-          <input type="email" name="sender_email" class="form-control" id="email" value="<?php echo htmlspecialchars($sender_email); ?>">
-          <span class="help-block has-error">
-            <?php echo $sender_email_err; ?>
-          </span>
-        </div>
-
-        <div class="form-group">
-          <label class="control-label" for="sender_phone">Phone number (optional)</label>
-          <input type="text" name="sender_phone" class="form-control" id="phone" value="<?php echo htmlspecialchars($sender_phone); ?>">
-        </div>
-
-        <div class="form-group <?php if ($sender_message_err) { echo 'has-error'; } ?>">
-          <label class="control-label" for="sender_message">Message</label>
-          <textarea class="form-control" name="sender_message" rows="3" id="message"><?php echo htmlspecialchars($sender_message); ?></textarea>
-          <span class="help-block has-error">
-            <?php echo $sender_message_err; ?>
-          </span>
-        <div>
-
-        <br>
-        
-        <input type="submit" class="btn btn-default btn-success" value="Send">
-      </form>
-
-    <?php } else { ?>
-
-      <h1>Message sent!</h1>
-      <p>Thank you for contacting me. I've received your message and I will respond very soon.</p>
-      <p>&mdash; Martha</p>
-
-    <?php } ?>
-   
-    <!-- <script src="../static/js/contact.js"></script> -->
-
-  </div>
-</div>
+<div class="typeform-widget" data-url="https://adamgibbons.typeform.com/to/AT57lp" data-text="Martha Gibbons" style="width:100%;height:500px;"></div>
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+<div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="https://www.typeform.com/examples/forms/?utm_campaign=AT57lp&amp;utm_source=typeform.com-2612066-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a></div>
